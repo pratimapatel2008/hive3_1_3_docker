@@ -1,6 +1,6 @@
 # Guide to create Apache Hive 3.1.3 for docker.
 
-## Create Hive image and Run Hive.
+#### Create Hive image and Run Hive.
 ```
 git clone https://github.com/pratimapatel2008/hive3_1_3_docker.git
 cd hive3_1_3_docker
@@ -8,7 +8,7 @@ docker build . -t hive313
 docker run -d -p 10000:10000 hive313
 ```
 
-## To connect to Hive you can use DBEaver/JDBC Client connecting to localhost:10000 or use beeline from container.
+#### To connect to Hive you can use DBEaver/JDBC Client connecting to localhost:10000 or use beeline from container.
 ```
 (base)  π ~ ❯ docker ps
 CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS          PORTS                      NAMES
